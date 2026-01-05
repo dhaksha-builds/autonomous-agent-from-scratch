@@ -4,11 +4,6 @@ class Planner:
     self.plan_template = plan_template
 
   def run(self, question, observation):
-    print("\n\n")
-    print("Plan Called")
-    print("\n\n")
-    print("Plan Template")
-    print("\n\n")
     plan = self.llm(
         prompt=self.plan_template.format(question=question, observation=observation),
         max_tokens=4096,
