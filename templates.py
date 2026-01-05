@@ -38,4 +38,3 @@ follower_growth: {follower_growth}
 [/INST]
 """
 
-ig_question = "I want you to come up with a strategy to start and grow my page on instagram"
