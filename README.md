@@ -15,6 +15,7 @@ Planner → Executor → Observer → Evaluator → Decision
 - Enforced STOP condition
 - Defensive normalization of LLM outputs
 - No agent frameworks used
+- User can input decision influencing metrics
 
 ## Why This Matters
 Most agent demos loop blindly.
@@ -25,9 +26,3 @@ This implementation focuses on control, safety, and decision enforcement.
 
 ## Limitations
 - Single-plan execution (no step-level execution)
-- Mocked environment (simulated follower growth)
-
-## Future Work
-- Step-wise execution
-- Environment-backed metrics
-- State serialization
