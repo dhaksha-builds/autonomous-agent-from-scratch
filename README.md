@@ -1,5 +1,3 @@
-# autonomous-agent-from-scratch
-
 # Autonomous Agent Control Loop (From Scratch)
 
 ## Overview
